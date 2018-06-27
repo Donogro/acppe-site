@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="../css/style_header.css" />
+		<script src="../js/Caroussel.js"></script> 
+		<title>Maison du patrimoine de Piriac sur mer - ACPPE</title>
+	</head>
+	<body onload="showSlides(1)">
+
+		<header>
+			<div id="wrap-header">
+				<h1>
+					<a href="header.html" title="Accueil - Maison du patrimoine de de Piriac" id="menu-logo" rel="home">
+						<img src="../media/img/logo-piriac.png" alt="Logo Maison du patri de Piriac">
+					</a>
+				</h1>
+				<div>
+					<div id="menu-tools">
+						<ul>
+							<li>Texte 1</li>
+							<li>Texte no. 2</li>
+							<li>Texte 3ème</li>
+						</ul>		
+					</div>
+					<div id="menu-main">
+						<nav>
+							<ul>
+								<li>Texte 4</li>
+								<li>Texte 5è</li>
+								<li>texte numéro 6</li>
+								<li>texte 7.0</li>
+							</ul>
+						</nav>
+						<div id="menu-main-search">
+							<form>
+								<input type="text" name="recherche" value="RECHERCHER"><br>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div id="header-caroussel">
+					<!-- Full-width images with number and caption text -->
+					<div class="bannieres fade">
+						<img src="../media/img/banniere1.jpg" style="width:100%">
+						<div class="legende-caroussel">Vue du ciel</div>
+					</div>
+					<div class="bannieres fade">
+						<img src="../media/img/banniere2.jpg" style="width:100%">
+						<div class="legende-caroussel">Falaise</div>
+					</div>
+					<div class="bannieres fade">
+						<img src="../media/img/banniere3.jpg" style="width:100%">
+						<div class="legende-caroussel">Maison du patrimoine</div>
+					</div>
+
+					<div class="caroussel-dots" style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span>
+						<span class="dot" onclick="currentSlide(2)"></span>
+						<span class="dot" onclick="currentSlide(3)"></span>
+					</div>
+				</div>
+			</div>
+		</header>
+
+	</body>
+</html>
