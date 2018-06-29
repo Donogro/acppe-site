@@ -1,6 +1,6 @@
 var slideIndex = 0;
 
-function showSlides() {
+function lancerDiapos() {
     var i;
     var slides = document.getElementsByClassName("bannieres");
     for (i = 0; i < slides.length; i++) {
@@ -9,5 +9,5 @@ function showSlides() {
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";  
-    setTimeout(showSlides, 10000); // Change image every 10 seconds
+    setTimeout(lancerDiapos, 10000); // Change image every 10 seconds
 }
