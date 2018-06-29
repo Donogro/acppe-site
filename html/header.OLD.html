@@ -3,11 +3,10 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="../css/style_header.css" />
-		<script src="../js/Caroussel.js"></script>
-		<script src="../js/MenuResponsif.js"></script>
+		<script src="../js/Caroussel.js"></script> 
 		<title>Maison du patrimoine de Piriac sur mer - ACPPE</title>
 	</head>
-	<body onload="lancerDiapos()">
+	<body onload="showSlides()">
 
 		<header>
 			<div id="wrap-header">
@@ -25,28 +24,23 @@
 						</ul>		
 					</div>
 					<div id="menu-main">
-						<nav class="topnav" id="myTopnav">
-							<a href="javascript:void(0);" class="icon" onclick="menuResponsif()">&#9776; Menu</a>
-							<a href="#">Accueil</a>
-							<a href="#">Texte 4è</a>
-							<div class="dropdown">
-								<div class="dropbtn">Dropdown 6.x</div>
-								<div class="dropdown-contenu">
-									<a href="#">texte 6.1</a>
-									<a href="#">texte 6.2</a>
-									<a href="#">texte 6.3</a>									
-								</div>
-							</div>
-							<a href="#">texte numéro 5</a>
+						<nav>
+							<ul>
+								<li>Texte 4</li>
+								<li>Texte 5è</li>
+								<li>texte numéro 6</li>
+								<li>texte 7.0</li>
+							</ul>
 						</nav>
-<!--						<div id="menu-main-search">
+						<div id="menu-main-search">
 							<form>
 								<input type="text" name="recherche" value="RECHERCHER"><br>
 							</form>
 						</div>
--->					</div>
+					</div>
 				</div>
 				<div id="header-caroussel">
+					<!-- Full-width images with number and caption text -->
 					<div class="bannieres fade">
 						<img src="../media/img/banniere1.jpg" style="width:100%">
 						<div class="legende-caroussel">Vue du ciel</div>
